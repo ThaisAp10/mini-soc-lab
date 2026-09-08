@@ -264,6 +264,8 @@ Ao final da configuração, o laboratório ficou estruturado da seguinte forma:
 ```
 O ambiente ficou funcional para realização de testes de segurança, geração de eventos, detecção e investigação através do Wazuh.
 ```
+
+```
 ---
 📚 Próximos documentos
 
