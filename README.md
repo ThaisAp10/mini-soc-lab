@@ -38,7 +38,7 @@ O ambiente foi desenvolvido utilizando duas máquinas virtuais:
 ┌─────────────────────┐
 │    ubuntu-target    │
 │                     │
-│  Ubuntu + Wazuh    │
+│  Ubuntu + Wazuh     │
 │      Agent          │
 │                     │
 │      Auditd         │
