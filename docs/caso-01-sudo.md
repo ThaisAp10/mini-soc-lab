@@ -51,4 +51,6 @@ O teste confirmou que o agente Wazuh está enviando corretamente os eventos rela
 
 Também foi validado que o Wazuh Dashboard consegue receber e apresentar esses eventos de segurança.
 
+![Teste sudo](/evidencias/teste1sudo.png)
+
 #### O agente está enviando os logs corretamente.
