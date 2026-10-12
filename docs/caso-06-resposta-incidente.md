@@ -27,7 +27,7 @@ Realizei uma pesquisa pelos eventos relacionados a falhas de autenticação SSH 
 - **MITRE ATT&CK:** `T1110.001 – Password Guessing`
 - **MITRE ATT&CK:** `T1021.004 – SSH`
 
-**[INSERIR PRINT: alerta de falha de autenticação SSH no Wazuh Dashboard]**
+![Teste 6](/evidencias/teste6.png)
 
 ## 3. Investigação do incidente
 
@@ -45,7 +45,7 @@ Durante a investigação, foram verificados:
 
 O evento apresentou três tentativas de autenticação malsucedidas, permitindo identificar a origem das tentativas e o usuário alvo.
 
-**[INSERIR PRINT: detalhes do alerta, incluindo IP de origem, usuário e quantidade de eventos]**
+![Teste resultado](/evidencias/details.png)
 
 ## 4. Validação nos logs do sistema
 
@@ -65,7 +65,7 @@ Também consultei o histórico de tentativas de login malsucedidas com:
 sudo lastb | head -10
 ```
 
-**[INSERIR PRINT: logs de autenticação no terminal da máquina ubuntu-target]**
+![Bash](/evidencias/failed%20password.png)
 
 A análise dos logs confirmou a existência das tentativas malsucedidas identificadas pelo Wazuh.
 
