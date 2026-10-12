@@ -109,11 +109,13 @@ Foram identificados eventos relacionados a falhas de autenticação SSH, incluin
 - `sshd: authentication failed.`
 - `User login failed`, quando apresentado nos eventos.
 
-**[INSERIR PRINT: eventos de falha de autenticação SSH no Dashboard]**
+![Falha login](/evidencias/userloginfailed.png)
+
+![Falha autenticação](/evidencias/authenticationfailed.png)
 
 Ao abrir os detalhes do evento, foi possível analisar informações como o host afetado, o usuário alvo, o endereço IP de origem, o horário e a regra de detecção.
 
-**[INSERIR PRINT: detalhes do evento no Wazuh Dashboard]**
+![Tabela](/evidencias/tabela.png)
 
 ### Informações da detecção
 
