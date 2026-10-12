@@ -135,7 +135,8 @@ sudo ausearch -k shadow_access
 
 No Dashboard, pesquisei novamente por `shadow`. Entretanto, o evento ainda aparecia associado à detecção genérica de uso de `sudo`.
 
-**[INSERIR PRINT: evento inicial no Dashboard]**
+![Config shadow1](/evidencias/config_shadow1.png)
+![Config shadow2](/evidencias/config_shadow2.png)
 
 ## 7. Criação de uma regra personalizada no Wazuh
 
@@ -194,7 +195,7 @@ O alerta esperado foi identificado:
 
 `Audit: Access to /etc/shadow detected`
 
-**[INSERIR PRINT: alerta personalizado no Wazuh Dashboard]**
+![Result shadow](/evidencias/result_shadowaccess.png)
 
 O evento apresentou:
 
