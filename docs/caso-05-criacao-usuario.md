@@ -39,7 +39,7 @@ O Wazuh apresentou o seguinte evento:
 - **Descrição:** `New user added to the system.`
 - **Máquina monitorada:** `ubuntu-target`
 
-**[INSERIR PRINT: alerta de criação de usuário no Wazuh Dashboard]**
+![SOC Teste](/evidencias/teste7-novo.png)
 
 ## 4. Análise do evento
 
@@ -72,6 +72,8 @@ A ausência de resultados confirmou que a entrada do usuário não estava mais p
 **Resultado: ✅ Teste concluído com sucesso.**
 
 O Wazuh detectou a criação do usuário de teste e gerou um alerta de nível 8, identificado pela regra `5902`.
+
+![Resultado](/evidencias/teste7-resultado.png)
 
 ## 7. Conclusão
 
