@@ -111,7 +111,7 @@ Foram identificados eventos relacionados a falhas de autenticação SSH, incluin
 
 ![Falha login](/evidencias/userloginfailed.png)
 
-![Falha autenticação](/evidencias/authenticationfailed.png)
+![Falha autenticação](/evidencias/authentication%20failed.png)
 
 Ao abrir os detalhes do evento, foi possível analisar informações como o host afetado, o usuário alvo, o endereço IP de origem, o horário e a regra de detecção.
 
