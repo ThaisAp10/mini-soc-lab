@@ -24,7 +24,7 @@ Em seguida, acessei o Wazuh Dashboard e naveguei até:
 
 Pesquisei pelos termos `syscheck` e `arquivo_soc`, mas os eventos esperados não foram encontrados.
 
-**[INSERIR PRINT: primeira tentativa sem os alertas esperados]**
+![Modificação](/evidencias/modificacao1.png)
 
 ## 3. Ajuste da configuração do FIM
 
@@ -91,7 +91,7 @@ Foram observados os seguintes alertas:
 | `554` | `File added to the system.` | 5 |
 | `550` | `Integrity checksum changed.` | 7 |
 
-**[INSERIR PRINT: alertas de criação e alteração do arquivo no Wazuh Dashboard]**
+![Modificação 2](/evidencias/changed4.png)
 
 Os eventos confirmaram que o Wazuh passou a monitorar o diretório `/tmp` e identificar as alterações realizadas no arquivo de teste.
 
