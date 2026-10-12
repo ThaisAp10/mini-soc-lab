@@ -221,6 +221,10 @@ sudo systemctl status auditd
 ```
 Todos os serviços necessários foram confirmados como ativos.
 
+![SOC1](/evidencias/soc_1.png)
+
+![Wazuh1](/evidencias/wazuh1.png)
+
 ## 📊 12. Primeiro teste de monitoramento
 
 Após a configuração do ambiente, foram realizados testes para verificar se os eventos do endpoint estavam chegando ao **Wazuh**.
@@ -263,9 +267,7 @@ Ao final da configuração, o laboratório ficou estruturado da seguinte forma:
 └─────────────────────────────────────┘
 ```
 O ambiente ficou funcional para realização de testes de segurança, geração de eventos, detecção e investigação através do Wazuh.
-```
 
-```
 ---
 📚 Próximos documentos
 
